@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin-left: 10px;
+}
+.icon{
+    width: 60px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:burlywood;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 130px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: o.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: goldenrod;
+}
+
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 418px;
+}
+
+.srh{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid  white;
+    margin-top: 7px;
+    color: white;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 9px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 90px;
+    height: 35px;
+    background:green;
+    border: 2px solid white;
+    margin-top: 7px;
+    color: white;
+    font-size: 13px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn.focus{
+    outline: none;
+}
+.srh.focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 60px;
+    color: white;
+    position: relative;
+}
+.content.para{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 30opx;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    line-height: 200px;
+
+}
+
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 15px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+.content.join{
+    width: 400px;
+    height: 100px;
+    background: rgb(176, 11, 11);
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+.content .join a{
+    text-decoration: none;
+    color: black;
+    background:greenyellow;
+    transition: .3s ease;
+}
+
+.join a:hover{
+    background-color: white;
+}
